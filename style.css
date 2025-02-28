@@ -1,0 +1,95 @@
+
+body {
+    font-family:monospace;
+    background-color: #dadada;
+    text-align: center;
+}
+.header {
+    background-color: #9be7e7;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.header input {
+    padding: 8px;
+}
+.header button {
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.container {
+    background: white;
+    padding: 30px;
+    width: 90%;
+    margin: 40px auto;
+}
+.title {
+    background: black;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+.map img {
+    width: 300px;
+    height: auto;
+}
+.info {
+    text-align: left;
+    flex: 1;
+    max-width: 300px;
+}
+.ticket {
+    background: navy;
+    color: white;
+    padding: 30px;
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+}
+.printbutton button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+}
+.selection {
+  border: black 2px solid;
+}
+.selection h3 {
+  font-size: 16px;
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+.form-select {
+    border-radius: 0%;
+}
+.containerCAR {
+    box-shadow: 10px 10px 25px;
+}
+.formCAR span {
+    color: red;
+}
