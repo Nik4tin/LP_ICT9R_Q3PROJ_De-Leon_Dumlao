@@ -93,3 +93,10 @@ body {
 .formCAR span {
     color: red;
 }
+.table {
+    margin: auto;
+    border: black solid 3px;
+}
+.selection textarea {
+    border-radius: 0%;
+}
